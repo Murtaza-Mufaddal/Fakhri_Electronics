@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    font-family:cursive;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+
+#myInput{
+    margin-top: 40px;
+    width:fit-content;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.container{
+    display: flex;
+}
+
+ ul img{
+  
+    max-width: 200px;
+    border-radius: 10px;
+}
+ul li{
+    margin: 80px;
+    font-size: 20px;
+    font-family: monospace;
+    color: red;
+    text-align: center;
+    list-style: none;
+}
